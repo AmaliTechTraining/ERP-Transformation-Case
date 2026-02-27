@@ -19,72 +19,52 @@ You are advising **Alpha Manufacturing Group (AMG)**, a mid-sized North American
 ### 2.1 Application Landscape (As-Is)
 AMG operates a fragmented system landscape:
 
-* **Core ERP (20+ years old)**
-    * Finance (GL, AP, AR)
-    * Manufacturing / MRP
-    * Procurement & Inventory
-    * Basic reporting (SQL → Excel)
-    * ~80 users (Hosted in private cloud)
-* **Engineering System (Separate database)**
-    * Part number generation
-    * Bill of Materials (BOM) management
-    * Engineering Change Notices (ECNs)
-    * Nightly file-based sync to ERP
-* **Other Key Systems**
-    * CAD + PDM (no workflow enforcement)
-    * Cloud CRM (not integrated to ERP)
-    * HRIS (US) + separate payroll (Canada)
-    * Time tracking tool (partial integration)
-    * Asset monitoring platform (separate Azure environment)
-    * Warehouse scanning add-on
-    * Heavy Excel-based reporting across functions
+* **Core ERP (20+ years old):** Finance, Manufacturing/MRP, Procurement. ~80 users.
+* **Engineering System:** Separate database for BOM and ECNs; nightly fragile sync.
+* **Other:** Cloud CRM (unintegrated), HRIS/Payroll (siloed), heavy Excel reliance.
 
-**Financial Metrics:**
-* Total annual IT spend: **~$1.5m**
-* Core application spend (excl. infra): **~$500k**
-
-### 2.2 Structural Weaknesses
-* Two separate “ERP-like” cores (Finance vs Engineering BOM).
-* Nightly FTP-based file transfers (one-way, fragile).
-* Manual intervention required when part import fails.
-* CRM not integrated with manufacturing or finance.
-* HR tools disconnected.
-* Asset data siloed.
-* No single KPI definition across departments.
-* High reliance on individual system knowledge.
-
-### 2.3 Observed Business Impact
+### 2.2 Observed Business Impact
 * **Margin Erosion:** ~80% of custom orders experienced margin erosion last year.
-* **Tracking Issues:** Labor tracking against work orders is unreliable.
+* **Visibility:** No reliable contribution margin view; unreliable labor tracking.
 * **Operations:** Manufacturing delays due to BOM sync failures.
-* **Visibility:** No reliable contribution margin view; limited end-to-end visibility across value chain.
-* **Governance:** Historical data is inconsistent and poorly governed.
 
 ---
 
 ## 3. Board Mandate
-The Board has approved a transformation program with the following objectives:
-
-1.  **Replace** the legacy ERP with a modern cloud ERP.
-2.  **Rationalize** the application landscape.
-3.  **Improve** data quality and governance.
-4.  **Ensure** uninterrupted business operations.
-5.  **Improve** margin transparency and KPI reporting.
+The Board has approved a transformation program to:
+1. Replace the legacy ERP with a modern cloud ERP.
+2. Rationalize the application landscape and improve data governance.
+3. Ensure uninterrupted operations and improve margin transparency.
 
 **Target go-live:** ~12 months from now.
 
 ---
 
-## 4. Take-Home Assignment
-Prepare a 2–3 page executive memo addressed to AMG’s Executive Team. You may make reasonable assumptions.
+## 4. Submission Process
+
+
+
+To ensure your submission is reviewed, you **must** follow these steps:
+
+1.  **Fork this Repository:** Click the "Fork" button at the top of this page to create a copy of these instructions in your own GitHub account.
+2.  **Upload Deliverables:** Upload your **Executive Memo (PDF)** and your **Presentation Slide Deck (PDF/PPTX)** directly to your forked repository.
+3.  **Ensure Public Access:** Your forked repository **must be set to Public**. All links and files must be accessible to the review team without requiring additional permissions.
+4.  **Submit the Form:** Once your repo is ready, submit the URL of your forked GitHub repository via the **[Online Submission Form Link Here](https://forms.office.com/e/MDkAbcEpGe)**.
+
+> **Warning:** Submissions with private repositories or inaccessible files will not be evaluated.
+
+---
+
+## 5. Take-Home Assignment
+Prepare a 2–3 page executive memo and a supporting slide deck addressed to AMG’s Executive Team.
 
 ### Prompt 1 – Overall Approach
 How would you structure the ERP replacement program to maximize success and minimize operational risk?
-* **Address:** Key objectives, Phasing approach, Top 3–5 risks, and how to control scope.
+* **Address:** Key objectives, Phasing approach, Top 3–5 risks, and scope control.
 
 ### Prompt 2 – Scope & Sequencing
 What should be included in the initial ERP go-live vs. deliberately deferred?
-* **Address:** Day-1 must-haves, what not to migrate initially, and customization discipline.
+* **Address:** Day-1 must-haves, migration exclusions, and customization discipline.
 
 ### Prompt 3 – Data & Reporting
 Leadership wants uninterrupted access to historical data and KPIs.
@@ -92,10 +72,11 @@ Leadership wants uninterrupted access to historical data and KPIs.
 
 ---
 
-### Deliverable Expectations
-We are assessing:
-* Clear structure
-* Prioritization discipline
-* Trade-off awareness
-* Practical judgment
-* Executive-level communication
+## 6. Deliverable Expectations & Live Review
+Following the submission of your GitHub repo link, successful candidates will be invited to a **Live Review Call**. You will present your slide deck to the "Executive Team" (Reviewers).
+
+**We are assessing:**
+* **Structure:** Clear, executive-level communication.
+* **Prioritization:** Ability to make difficult trade-offs.
+* **Judgment:** Practical, real-world application of ERP principles.
+* **Presentation:** Ability to defend your strategy under Q&A.
